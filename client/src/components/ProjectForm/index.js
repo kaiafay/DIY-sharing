@@ -37,7 +37,6 @@ const ProjectForm = () => {
   const handleTitleChange = (event) => {
     if(event.target.value.length <= 280) {
       setTitle(event.target.value);
-      console.log(projectTitle);
     }
   };
 
@@ -45,7 +44,6 @@ const ProjectForm = () => {
     if (event.target.value.length <= 280) {
       setText(event.target.value);
       setCharacterCount(event.target.value.length);
-      console.log(projectText);
     }
   };
 
